@@ -11,7 +11,7 @@ public class Testing {
 	 */
 	public static void main(String[] args) {
 		HtmlUnitDriver driver=new HtmlUnitDriver(BrowserVersion.FIREFOX_38);
-		driver.get("http://3.223.195.245:8080/webapp/");
+		driver.get("http://44.200.219.44:8080/anas/");
 		System.out.println(driver.getCurrentUrl());
 		String expmsg="Hello, World!";
 		String actmsg=driver.findElement(By.xpath("html/body")).getText();
